@@ -16,7 +16,7 @@ public class Config {
 	@Bean
 	Docket createSwagger() {
 		return new Docket(DocumentationType.SWAGGER_2)
-				.groupName("app-doc")
+				.groupName("emp-doc")
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.vtalent.employeeInfo"))
 				.paths(PathSelectors.any())
