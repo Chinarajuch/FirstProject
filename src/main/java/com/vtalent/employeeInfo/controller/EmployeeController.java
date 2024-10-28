@@ -19,7 +19,7 @@ import com.vtalent.employeeInfo.binding.EmployeeResponse;
 import com.vtalent.employeeInfo.service.EmployeeService;
 
 @RestController
-@RequestMapping("employee")
+@RequestMapping("employees")
 public class EmployeeController {
 	
 	@Autowired
